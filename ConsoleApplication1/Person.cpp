@@ -13,7 +13,7 @@ using namespace std;
 	
 
 }*/
-Person::Person(const string& id, const string& lastName, const string& firstName, const string& gender, const string& birthDate) : id(id), lastName(lastName), firstName(firstName), gender(gender), birthDate(birthDate)
+Person::Person(const string& id, const string& lastName, const string& firstName, const string& gender, const string& birthDate) : id(id), lastname(lastName), firstname(firstName), gender(gender), birthDate(birthDate)
 {
 }
 Person::Person()
